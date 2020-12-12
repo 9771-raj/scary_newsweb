@@ -1,0 +1,54 @@
+h1{
+    color: chartreuse;
+    background-image: url(image//star.gif);
+    border-style: dashed;
+    text-align: center;
+    border: yellow;
+    padding: 15px;
+  margin: 2px;
+  background-repeat: round;
+  background-size: cover;
+  
+}
+body{
+    background-image: url(image//green.jpg);
+    background-size: cover;  
+    overflow: auto;
+}
+p.font{
+    font-size: 300%;
+    text-align: center;
+
+}
+img{
+    
+   position: absolute;
+   right: 40px;
+   top: 250px;
+    z-index: -1;
+    opacity: 1;
+}
+
+ul{
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    background-color: saddlebrown;
+    text-align: center;
+    
+}
+li a{
+    display: block;
+    padding: 8px 16px;
+    color: tomato;
+    text-decoration: none;
+
+}
+li a:hover{
+    background-color: white;
+    color: black;
+}
+li a.active{
+    background-color: blueviolet;
+}

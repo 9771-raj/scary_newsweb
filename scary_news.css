@@ -1,0 +1,55 @@
+div{
+    text-align: center;
+    color: red;
+    background-color: slategrey;
+    background-size: cover;
+    margin: 0px;
+    padding: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  body{
+      background-image: url(image//mist.gif);
+      background-size: cover;
+  }
+  .left_pic img{
+      position: absolute;
+      width: 500px;
+      
+      height: 185px;
+      left: 9px;
+      top: 9px;
+      z-index: +1;
+      text-align: left;
+      border-radius: 50%;
+  }
+  body{
+      background-attachment: scroll;
+  }
